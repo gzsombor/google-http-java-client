@@ -1,5 +1,28 @@
 # Changelog
 
+### [1.34.3](https://www.github.com/googleapis/google-http-java-client/compare/v1.34.2...v1.34.3) (2020-03-24)
+
+
+### Bug Fixes
+
+* add linkage monitor plugin ([#1000](https://www.github.com/googleapis/google-http-java-client/issues/1000)) ([027c227](https://www.github.com/googleapis/google-http-java-client/commit/027c227e558164f77be204152fb47023850b543f))
+* Correctly handling chunked response streams with gzip ([#990](https://www.github.com/googleapis/google-http-java-client/issues/990)) ([1ba2197](https://www.github.com/googleapis/google-http-java-client/commit/1ba219743e65c89bc3fdb196acc5d2042e01f542)), closes [#367](https://www.github.com/googleapis/google-http-java-client/issues/367)
+* include request method and URL into HttpResponseException message ([#1002](https://www.github.com/googleapis/google-http-java-client/issues/1002)) ([15111a1](https://www.github.com/googleapis/google-http-java-client/commit/15111a1001d6f72cb92cd2d76aaed6f1229bc14a))
+* reuse reference instead of calling getter twice ([#983](https://www.github.com/googleapis/google-http-java-client/issues/983)) ([1f66222](https://www.github.com/googleapis/google-http-java-client/commit/1f662224d7bee6e27e8d66975fda39feae0c9359)), closes [#982](https://www.github.com/googleapis/google-http-java-client/issues/982)
+
+
+### Documentation
+
+* android 4.4 or later is required ([#1008](https://www.github.com/googleapis/google-http-java-client/issues/1008)) ([bcc41dd](https://www.github.com/googleapis/google-http-java-client/commit/bcc41dd615af41ae6fb58287931cbf9c2144a075))
+* libraries-bom 4.0.1 ([#976](https://www.github.com/googleapis/google-http-java-client/issues/976)) ([fc21dc4](https://www.github.com/googleapis/google-http-java-client/commit/fc21dc412566ef60d23f1f82db5caf3cfd5d447b))
+* libraries-bom 4.1.1 ([#984](https://www.github.com/googleapis/google-http-java-client/issues/984)) ([635c813](https://www.github.com/googleapis/google-http-java-client/commit/635c81352ae383b3abfe6d7c141d987a6944b3e9))
+* require Android 4.4 ([#1007](https://www.github.com/googleapis/google-http-java-client/issues/1007)) ([f9d2bb0](https://www.github.com/googleapis/google-http-java-client/commit/f9d2bb030398fe09e3c47b84ea468603355e08e9))
+
+
+### Dependencies
+
+* httpclient 4.5.12 ([#991](https://www.github.com/googleapis/google-http-java-client/issues/991)) ([79bc1c7](https://www.github.com/googleapis/google-http-java-client/commit/79bc1c76ebd48d396a080ef715b9f07cd056b7ef))
+
 ### [1.34.2](https://www.github.com/googleapis/google-http-java-client/compare/v1.34.1...v1.34.2) (2020-02-12)
 
 
